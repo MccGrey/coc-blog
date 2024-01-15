@@ -7,10 +7,10 @@ const Dashboard = () => {
   return (
     <section className="dashboard">
       {posts.length ? (
-        <div className="container dashbooard__container">
+        <div className="container dashboard__container">
           {posts.map((post) => {
             return (
-              <article key={post.id} className="dashboard__posts">
+              <article key={post.id} className="dashboard__post">
                 <div className="dashboard__post-info">
                   <div className="dashboard__post-thumbnail">
                     <img src={post.thumbnail} alt="" />
