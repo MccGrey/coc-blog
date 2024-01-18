@@ -21,10 +21,16 @@ const Dashboard = () => {
                   <Link to={`/posts/${post.id}`} className="btn sm">
                     View
                   </Link>
-                  <Link to={`/posts/${post.id}`} className="btn sm primary">
+                  <Link
+                    to={`/posts/${post.id}/edit`}
+                    className="btn sm primary"
+                  >
                     Edit
                   </Link>
-                  <Link to={`/posts/${post.id}`} className="btn sm danger">
+                  <Link
+                    to={`/posts/${post.id}/delete`}
+                    className="btn sm danger"
+                  >
                     Delete
                   </Link>
                 </div>

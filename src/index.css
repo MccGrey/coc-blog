@@ -451,7 +451,7 @@ textarea {
   margin-top: 1.5rem;
 }
 
-.form {
+.form__profile {
   margin-top: 3rem;
   margin-inline: auto;
   width: var(--form-width);
@@ -490,4 +490,11 @@ textarea {
 .dashboard__post-actions {
   display: flex;
   gap: 1rem;
+}
+
+/* custom style for react quill */
+.ql-editor {
+  overflow: scroll;
+  background: var(--color-white);
+  height: 10rem !important;
 }
